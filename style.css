@@ -1,0 +1,67 @@
+h1 {
+	margin: 20px;
+	text-align: center;
+}
+
+table, th, td {
+	border: 1px solid black;
+}
+
+table {
+	width: 70%;
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+th, td {
+	text-align: center;
+	vertical-align: middle;
+	height: 40px;
+	width: 10%
+}
+
+textarea {
+	font-size: 12px;
+}
+
+#row0 {
+	background-color: #0af;
+}
+
+td:hover {
+	background-color: #eee;
+	cursor: pointer;
+}
+
+.current {
+	background-color: #a3ebff;
+}
+
+.current:hover {
+	background-color: #cff4ff;
+}
+
+.highlighted {
+	background-color: #fcff4f;
+}
+
+.highlighted:hover {
+	background-color: #feffa8;
+}
+
+#toDoList {
+	width: 70%;
+	margin: 15px 15% 15px 15%;
+	font-size: 14px;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px;
+}
+
+.btn {
+	width: 10%;
+	height: 3em;
+	margin: 20px 45% 20px 45%;
+}
